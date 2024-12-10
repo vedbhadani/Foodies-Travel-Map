@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries Must Visit!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .abc{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 30px;
+            background-color: #2A9D8F;
+            color:#FDF0D5;
+            font-family: 'jaro', sans-serif;
+            word-spacing: 10px;
+        }
+        .text{
+            margin-left: 120px;
+            font-size: 30px;
+            font-weight: bolder;
+            margin-top: 80px;
+            font-family: 'Lilita One', cursive;
+            letter-spacing: 3px;
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin:20px 100px;
+        }
+        .main1{
+            display: flex;
+            flex-shrink: 0; 
+            gap: 30px;
+            perspective: 1000px;
+        }
+        .main1 img{
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5); 
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+        .main1 img:hover {
+            box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.7);
+        }
+
+        .text-section {
+            max-width: 500px;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #264653; 
+            margin-left: 10px; 
+            font-family: 'Lilita One', cursive;
+        }
+        .main2 a p{
+            font-family: 'Lilita One', cursive;
+            font-size: 16px;
+        }
+        .main2{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 60px 0px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E63946;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 15px 20px;
+            width: 200px;
+            height: 60px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+        background-color: darkred;
+        }
+        .button p {
+            margin: 0;
+        }
+        
+        .back a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 150px;
+            background-color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back a:hover {
+            background-color: grey;
+        }
+        .b{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+        .text-section p strong:first-child {
+            color: #E63946;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #D8F3DC;">
+        <p class="abc">Indulge in Europe's timeless cuisines, where every bite tells a story of tradition and taste! 🥐🍷</p>
+        <p class="text">1. Italy</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/itlay1.jpg">
+                <img src="europe photos/itlay2.jpeg">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong> Italy is synonymous with food and wine. From pasta to gelato, its regional cuisines boast simplicity and bold flavors.</p>
+                <br>
+                <p><strong>Famous Dishes:</strong></p>
+                <p><strong>Pizza Margherita:</strong> A simple pizza topped with tomato, mozzarella, and basil.</p>
+                <p><strong>Pasta Carbonara:</strong> Spaghetti tossed with eggs, cheese, and pancetta.</p>
+                <p><strong>Risotto:</strong> Creamy rice cooked with broth, cheese, and saffron.</p>
+                <p><strong>Tiramisu:</strong> A coffee-flavored dessert layered with mascarpone.</p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+        
+
+        <p class="text">2. France</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/france1.jpeg" alt="Scenic view of France">
+                <img src="europe photos/france2.jpg" alt="Cultural landmark in France">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> France is a culinary paradise known for its refined techniques and regional specialties.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Coq au Vin:</strong> Chicken braised with wine, mushrooms, and onions.</p>
+                    <p><strong>Baguette and Cheese:</strong> A classic pairing enjoyed across the country.</p>
+                    <p><strong>Ratatouille:</strong> A vegetable stew from Provence.</p>
+                    <p><strong>Crème Brûlée:</strong> A creamy custard topped with caramelized sugar.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+        
+    
+        <p class="text">3. Spain</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/spain.png" alt="Scenic view of Spain">
+                <img src="europe photos/spain1.jpeg" alt="Iconic Spanish landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> Spanish cuisine celebrates vibrant flavors, fresh seafood, and shared meals like tapas.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Paella:</strong> A saffron-infused rice dish with seafood or meat.</p>
+                    <p><strong>Tapas:</strong> Small plates of varied appetizers.</p>
+                    <p><strong>Gazpacho:</strong> A chilled tomato-based soup.</p>
+                    <p><strong>Churros:</strong> Fried dough pastries served with chocolate.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+      
+        <p class="text">4. Greece</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/greece2.png" alt="Scenic view of Greece">
+                <img src="europe photos/greece1.jpg" alt="Greek landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> Greece offers a blend of fresh Mediterranean ingredients, herbs, and olive oil.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Moussaka:</strong> A baked dish with eggplant, minced meat, and béchamel.</p>
+                    <p><strong>Souvlaki:</strong> Grilled meat skewers served with pita and tzatziki.</p>
+                    <p><strong>Spanakopita:</strong> A spinach and feta-filled pastry.</p>
+                    <p><strong>Baklava:</strong> A layered dessert with nuts and honey.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+
+        <p class="text">5. Germany</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/germany1.png" alt="Scenic view of Germany">
+                <img src="europe photos/germany2.png" alt="Iconic German landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> Germany is known for hearty meals, beer culture, and regional specialties.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Bratwurst:</strong> Grilled sausages served with mustard.</p>
+                    <p><strong>Sauerkraut:</strong> Fermented cabbage, a classic side dish.</p>
+                    <p><strong>Schnitzel:</strong> Breaded and fried meat cutlets.</p>
+                    <p><strong>Black Forest Cake:</strong> Chocolate cake layered with cherries and cream.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">6. United Kingdom</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/unitedkingdom1.png" alt="Scenic view of the UK">
+                <img src="europe photos/unitedkingdom2.jpg" alt="UK cultural landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> The UK offers a mix of traditional fare and modern culinary innovations.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Fish and Chips:</strong> Fried fish with thick-cut fries.</p>
+                    <p><strong>Shepherd's Pie:</strong> A savory pie with minced meat and mashed potatoes.</p>
+                    <p><strong>Yorkshire Pudding:</strong> A baked batter dish often served with roast beef.</p>
+                    <p><strong>Afternoon Tea:</strong> A ritual of tea with scones, sandwiches, and pastries.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+       
+        <p class="text">7. Portugal</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/portugal2.png" alt="Scenic view of Portugal">
+                <img src="europe photos/portugal1.jpg" alt="Portuguese landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> Portugal offers fresh seafood, aromatic spices, and rich pastries.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Bacalhau:</strong> Salted codfish prepared in various styles.</p>
+                    <p><strong>Caldo Verde:</strong> A hearty kale and potato soup.</p>
+                    <p><strong>Sardinhas Assadas:</strong> Grilled sardines served with potatoes.</p>
+                    <p><strong>Pastéis de Nata:</strong> Custard tarts with caramelized tops.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+       
+        <p class="text">8. Switzerland</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/switzerland1.png" alt="Scenic view of Switzerland">
+                <img src="europe photos/switzerland2.png" alt="Swiss landmark">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> Swiss cuisine blends French, German, and Italian influences with rich dairy products.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Fondue:</strong> Melted cheese served with bread for dipping.</p>
+                    <p><strong>Rösti:</strong> Crispy fried grated potatoes.</p>
+                    <p><strong>Zürcher Geschnetzeltes:</strong> Creamy veal ragout with mushrooms.</p>
+                    <p><strong>Chocolate:</strong> Renowned for its world-class quality.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+
+        <p class="text">9. United Kingdom</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/unitedkingdom2.jpg" alt="Scenic view of the UK">
+                <img src="europe photos/unitedkingdom1.png" alt="Cultural landmark in the UK">
+            </div>
+            <div class="text-section">
+                <p>
+                    <strong>Why Visit:</strong> The UK offers a mix of traditional fare and modern culinary innovations.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Fish and Chips:</strong> Fried fish with thick-cut fries.</p>
+                    <p><strong>Shepherd's Pie:</strong> A savory pie with minced meat and mashed potatoes.</p>
+                    <p><strong>Yorkshire Pudding:</strong> A baked batter dish often served with roast beef.</p>
+                    <p><strong>Afternoon Tea:</strong> A ritual of tea with scones, sandwiches, and pastries.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+
+        <p class="text">10. Poland</p>
+        <div class="main">
+            <div class="main1">
+                <img src="europe photos/poland2.png" alt="Scenic view of Poland">
+                <img src="europe photos/poland1.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:</strong> Poland is known for hearty, rustic dishes, including rich soups, meats, and savory pastries.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Pierogi:</strong> Dumplings filled with a variety of fillings such as potatoes, cheese, or meat.</p> 
+                    <p><strong>Bigos:</strong> A traditional stew made from sauerkraut, meat, and sausage.</p> 
+                    <p><strong>Żurek:</strong> A sour rye soup often served with sausage and hard-boiled eggs.</p> 
+                    <p><strong>Placki ziemniaczane:</strong> Crispy potato pancakes, often served with sour cream or applesauce.</p>
+                </p>
+            </div>
+        </div>
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <div class="b">
+            <div class="back">
+                <a href="choose.html">Back</a>
+            </div>
+        </div>
+        
+        
