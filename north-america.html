@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .abc{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 20px;
+            background-color: #2A9D8F;
+            color:#FDF0D5;
+            font-family: 'jaro', sans-serif;
+            word-spacing: 10px;
+            
+        }
+        .text{
+            margin-left: 120px;
+            font-size: 30px;
+            font-weight: bolder;
+            margin-top: 80px;
+            font-family: 'Lilita One', cursive;
+            letter-spacing: 3px;
+
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin:20px 100px;
+        }
+        .main1{
+            display: flex;
+            flex-shrink: 0; /* Prevent images from shrinking */
+            gap: 30px;
+            /* perspective: 1000px; */
+        }
+        .main1 img{
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+        .main1 img:hover {
+            box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.7);
+        }
+
+        .text-section {
+            max-width: 500px; /* Adjust text width */
+            line-height: 1.6;
+            font-size: 16px;
+            color: #264653; /* Dark text for readability */
+            margin-left: 10px;
+            font-family: 'Lilita One', cursive;
+        }
+        .main2{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 60px 0px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E63946; /* Crimson Red */
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 15px 20px;
+            width: 200px;
+            height: 60px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+        background-color: darkred;
+        }
+        .button p {
+            margin: 0;
+            
+        }
+        
+        .back a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 150px;
+            background-color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back a:hover {
+            background-color: grey;
+        }
+        .b{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+        .text-section p strong:first-child {
+            color: #E63946;
+            font-size: 18px;
+        }
+        .main2 a p{
+            font-family: 'Lilita One', cursive;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #D8F3DC;">
+        <p class="abc">Savor the bold and diverse flavors of North America, a true melting pot for foodies! 🌮🍔</p>
+        <p class="text">1. Mexico</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/mexico1.png">
+                <img src="north america photos/mexico2.png">
+            </div>
+            <div class="text-section">
+                <p> 
+                    <strong>Why Visit:<br></strong>Mexico's cuisine is a UNESCO-recognized cultural heritage treasure. With its bold flavors, indigenous ingredients, and street food culture, it offers an unparalleled culinary experience.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                        <strong>Tacos al Pastor:</strong> Marinated pork served in soft corn tortillas.</p>
+                        <p><strong>Mole:</strong> A rich sauce made with chili, chocolate, and spices.</p> 
+                        <p><strong>Chiles en Nogada:</strong> Stuffed poblano peppers with walnut sauce.</p> 
+                        <p><strong>Tamales:</strong> Corn dough stuffed with savory or sweet fillings, steamed in corn husks.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">2. United States</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/us1.png">
+                <img src="north america photos/us2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>The U.S. is a melting pot of global cuisines, with each region offering unique specialties. From street food to high-end dining, there’s something for everyone.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Barbecue:</strong> Slow-smoked meats, especially in Texas and the South.</p> 
+                    <p><strong>New England Clam Chowder:</strong> A creamy soup with clams and potatoes.</p> 
+                    <p><strong>Cajun Gumbo:</strong> A spicy stew with seafood or meat, served over rice.</p> 
+                    <p><strong>Burgers and Fries:</strong> An American classic, reinvented in countless ways.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">3. Canada</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/canada1.png">
+                <img src="north america photos/canada2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Canada's cuisine reflects its multicultural heritage, with indigenous, French, and British influences. Its farm-to-table culture and seafood are highlights.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Poutine:</strong> Fries topped with cheese curds and gravy.</p> 
+                    <p><strong>Maple Syrup Treats:</strong> From taffy to pancakes, a must-try in Quebec.</p> 
+                    <p><strong>Butter Tarts:</strong> A rich pastry filled with sweet syrup.</p> 
+                    <p><strong>Atlantic Lobster:</strong> Freshly caught and often served boiled or in rolls.</p>
+                    
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">4. Cuba</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/cuba1.png">
+                <img src="north america photos/cuba2.jpg">
+            </div>
+            <div class="text-section">
+                <p> <strong>Why Visit:<br></strong>Cuban cuisine is a mix of Spanish, African, and Caribbean influences, offering flavorful comfort foods. Its use of tropical ingredients is a delight for foodies.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Ropa Vieja:</strong> Shredded beef in a tomato-based sauce.</p> 
+                    <p><strong>Moros y Cristianos:</strong> Black beans and rice.</p>
+                    <p><strong>Lechón Asado:</strong> Roast pork, a staple at celebrations.</p> 
+                    <p><strong>Tostones:</strong> Twice-fried green plantains.</p>
+                   
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">5. Jamaica</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/jamica1.jpg">
+                <img src="north america photos/jamica2.jpg">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Jamaican cuisine is known for its bold, spicy flavors and use of tropical ingredients. Its jerk cooking style is famous worldwide.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Jerk Chicken:</strong> Spicy, smoky, and grilled to perfection.</p> 
+                    <p><strong>Ackee and Saltfish:</strong> The national dish made with salted cod and a local fruit.</p> 
+                    <p><strong>Patties:</strong> Spiced meat-filled pastries.</p> 
+                    <p><strong>Festival:</strong> Fried dough served with fish or jerk meats.</p>
+                    
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">6. The Bahamas</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/bahamas1.png">
+                <img src="north america photos/bahamas2.jpg">
+            </div>
+            <div class="text-section">
+                <p> <strong>Why Visit:<br></strong>Known for its fresh seafood and island flavors, the Bahamas offers a delightful array of dishes that reflect its Caribbean heritage.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Conch Salad:</strong> A refreshing seafood salad made with conch, tomatoes, and citrus.</p> 
+                    <p><strong>Cracked Conch:</strong> Deep-fried conch fritters served with a dipping sauce.</p> 
+                    <p><strong>Rock Lobsters:</strong> Sweet, fresh lobsters from the Bahamian waters.</p> 
+                    <p><strong>Johnnycake:</strong> A sweet, cornbread-like dish served with meals.</p>
+                   
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">7. Puerto Rico</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/pr1.jpg">
+                <img src="north america photos/pr2.jpg">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Puerto Rican food is a mix of Spanish, African, and Taino influences, offering a variety of comforting, flavorful dishes.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Arroz con Gandules:</strong> Rice with pigeon peas, often served with pork.</p> 
+                    <p><strong>Lechón Asado:</strong> Slow-roasted whole pig, a staple at festivals.</p> 
+                    <p><strong>Mofongo:</strong> Mashed plantains, garlic, and meat or seafood.</p> 
+                    <p><strong>Pastelón:</strong> A sweet plantain casserole, often filled with ground beef.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">8. Dominican Republic</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/dr1.jpg">
+                <img src="north america photos/dr2.jpg">
+            </div>
+            <div class="text-section">
+                <p> <strong>Why Visit:<br></strong>Dominican cuisine is deeply influenced by the island's African, Spanish, and Taino roots. The flavors are bold, and the food is comforting.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>La Bandera:</strong> The national dish consisting of rice, beans, and meat.</p> 
+                    <p><strong>Mangu:</strong> Mashed plantains served with eggs and salami.</p> 
+                    <p><strong>Mofongo:</strong> Fried plantain balls mashed with garlic and pork cracklings.</p> 
+                    <p><strong>Chimichurri:</strong> A Dominican-style burger with seasoned meat and toppings.</p>
+                   
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">9. Belize</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/Belize1.jpg">
+                <img src="north america photos/Belize2.jpg">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Belize's cuisine is a blend of Mayan, Caribbean, and colonial influences. With a rich variety of fresh ingredients and seafood, it’s perfect for food lovers.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Rice and Beans:</strong> A staple side dish served with meat, often stewed chicken or pork.</p> 
+                    <p><strong>Stew Chicken:</strong> Marinated, slow-cooked chicken served with rice and beans.</p>
+                    <p><strong>Fried Fish:</strong> Freshly caught fish, deep-fried and served with tortillas.</p> 
+                    <p><strong>Salbutes:</strong> Fried tortillas topped with chicken, lettuce, and tomatoes.</p>
+                    
+
+                </p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">10. Nicaragua</p>
+        <div class="main">
+            <div class="main1">
+                <img src="north america photos/Nicaragua1.jpg">
+                <img src="north america photos/Nicaragua2.jpg">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Nicaragua offers hearty, flavorful dishes influenced by indigenous, Spanish, and Creole traditions. Its cuisine features abundant fresh produce and bold seasonings.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Gallo Pinto:</strong> Rice and beans, often served with eggs and meat.</p> 
+                    <p><strong>Nacatamales:</strong> Corn dough stuffed with meat and vegetables, wrapped in banana leaves.</p> 
+                    <p><strong>Vigorón:</strong> A dish made of yuca and chicharrón, a type of fried pork.</p> 
+                    <p><strong>Quesillo:</strong> A soft cheese snack, often served with a tortilla and sour cream.</p>
+                    
+                </p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+
+        <div class="b">
+            <div class="back">
+            <a href="choose.html">
+                <p>BACK</p>
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
