@@ -1,4 +1,4 @@
-/* Reset basic styling */
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +35,6 @@
     color: white;
   }
   
-  /* Main Content Styling */
   .content {
     max-width: 1100px;
     margin: 0 auto;
@@ -46,7 +45,7 @@
     letter-spacing: 2px;
   }
   
-  /* Region Section */
+
   .region {
     margin-bottom: 40px;
     display: flex;
@@ -110,7 +109,7 @@
     color: #800000;
   }
   
-  /* Footer Styling */
+
   .footer {
     text-align: center;
     background-color:grey;
@@ -122,7 +121,7 @@
     width: 100%;
   }
   
-  /* Responsive Design for Smaller Screens */
+
   @media (max-width: 768px) {
     .restaurant {
       flex-direction: column;
