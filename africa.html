@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .abc{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            padding: 20px;
+            background-color: #2A9D8F;
+            color:#FDF0D5;
+            font-family: 'jaro', sans-serif;
+            word-spacing: 10px;
+        }
+        .text{
+            margin-left: 120px;
+            font-size: 30px;
+            font-weight: bolder;
+            margin-top: 80px;
+            font-family: 'Lilita One', cursive;
+            letter-spacing: 3px;
+
+        }
+        .main{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin:20px 100px;
+        }
+        .main1{
+            display: flex;
+            flex-shrink: 0; 
+            gap: 30px;
+            perspective: 1000px;
+        }
+        .main1 img{
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5); 
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+        .main1 img:hover {
+            box-shadow: 20px 40px 50px rgba(0, 0, 0, 0.7);
+        }
+
+        .text-section {
+            max-width: 500px; 
+            line-height: 1.6;
+            font-size: 16px;
+            color: #264653; 
+            margin-left: 10px;
+            font-family: 'Lilita One', cursive;
+        }
+        .main2{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 60px 0px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E63946; 
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 15px 20px;
+            width: 200px;
+            height: 60px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+        background-color: darkred;
+        }
+        .button p {
+            margin: 0;
+            
+        }
+        
+        .back a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+            width: 150px;
+            background-color: black;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back a:hover {
+            background-color: grey;
+        }
+        .b{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+        .text-section p strong:first-child {
+            color: #E63946;
+            font-size: 18px;
+        }
+        .main2 a p{
+            font-family: 'Lilita One', cursive;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: #D8F3DC;">
+        <p class="abc">Discover Africa's culinary treasures, from spicy tagines to vibrant street food delights! 🥘🌟</p>
+        <p class="text">1. Morocco</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/morocco1.png">
+                <img src="africa photos/morocco2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Morocco's cuisine is a perfect blend of Mediterranean, Arabic, and Berber influences. The use of aromatic spices and slow-cooked dishes creates a unique sensory experience. The bustling souks and traditional riads serve as perfect backdrops for food exploration.</p>
+                <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Tagine:</strong> Slow-cooked meat or vegetables with spices.</p>
+                    <p><strong>Couscous:</strong> Steamed semolina topped with vegetables and meat.</p>
+                    <p><strong>Pastilla:</strong> A sweet and savory meat pie.</p>
+                    <p><strong>Harira:</strong> A rich tomato-based soup with lentils and chickpeas.</p>  
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">2. South Africa</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/southafrica1.png">
+                <img src="africa photos/southafrica2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong> Explore stunning landscapes, diverse wildlife, rich culture, thrilling adventures, and vibrant cities.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Bobotie:</strong> A spiced minced meat dish with a custard topping.</p>
+                    <p><strong>Biltong:</strong> Dried cured meat, often beef or game meat, similar to jerky.</p>
+                    <p><strong>Boerewors:</strong> A traditional South African sausage made from beef and pork.</p>
+                    <p><strong>Melktert:</strong> A creamy milk tart with a sweet, flaky crust.</p>                                    
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">3. Ethiopia</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/euthopia.png">
+                <img src="africa photos/euthopia1.png">
+            </div>
+            <div class="text-section">
+                <p> <strong>Why Visit:<br></strong>Ethiopia is known for its communal dining culture and bold flavors. Dishes are served on injera, a unique sourdough flatbread that doubles as an edible utensil.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Injera:</strong> Served with stews like Doro Wat (spicy chicken) and Misir Wat (spiced lentils).</p>
+                    <p><strong>Tibs:</strong> Sautéed meat with spices and vegetables.</p>
+                    <p><strong>Kitfo:</strong> Minced raw beef with clarified butter and spices.</p>
+                    <p><strong>Ethiopian Coffee:</strong> An integral part of its coffee ceremony culture.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">4. Nigeri</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/nigeria1.png">
+                <img src="africa photos/nigeria2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Nigerian cuisine is vibrant, bold, and deeply rooted in its cultural traditions. The extensive use of spices and flavor-packed ingredients make it a haven for food lovers.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p><p>Jollof Rice: A spicy, tomato-based rice dish.</p>
+                    <p><strong>Egusi Soup:</strong> Made with melon seeds and paired with pounded yam.</p>
+                    <p><strong>Suya:</strong> Spicy meat skewers grilled over an open flame.</p>
+                    <p><strong>Puff-Puff:</strong> Sweet fried dough balls.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">5. Tunisia</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/tunisia1.png">
+                <img src="africa photos/tunisia2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Tunisia's food is a delightful mix of Mediterranean and North African flavors. It's known for its use of olives, harissa, and seafood.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Couscous:</strong> A staple often paired with lamb or seafood.</p>
+                    <p><strong>Brik:</strong> A deep-fried pastry filled with egg, tuna, and spices.</p>
+                    <p><strong>Harissa:</strong> A spicy chili paste served as a condiment.</p>
+                    <p><strong>Shakshuka:</strong> Eggs poached in a spicy tomato sauce.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">6. Senegal</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/senegal.png">
+                <img src="africa photos/senegal1.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Senegalese cuisine is heavily influenced by French, North African, and local Wolof culinary traditions. Fresh seafood and richly flavored rice dishes dominate the food scene.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Thieboudienne:</strong> Fish and rice cooked in tomato sauce, considered the national dish.</p> 
+                    <p><strong>Yassa:</strong> A tangy dish made with chicken or fish marinated in lemon and onions.</p>
+                    <p><strong>Bissap:</strong> A refreshing hibiscus drink.</p>
+                    <p><strong>Fataya:</strong> Deep-fried pastries filled with spiced meat.</p>
+                    
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">7. Ghana</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/ghana1.png">
+                <img src="africa photos/ghana2.png">
+            </div>
+            <div class="text-section">
+                <p> <strong>Why Visit:<br></strong>Ghana is a paradise for those who enjoy hearty and flavorful meals. Its dishes are known for their rich stews and smoky, spicy flavors.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Jollof Rice:</strong> A favorite across West Africa, with Ghanaian Jollof standing out for its flavor.</p> 
+                    <p><strong>Banku and Tilapia:</strong> Fermented corn dough served with grilled fish.</p> 
+                    <p><strong>Kelewele:</strong> Spiced fried plantains.</p> 
+                    <p><strong>Light Soup:</strong> A spicy tomato-based soup with meat or fish.</p>
+                   
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">8. Kenya</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/kenya1.png">
+                <img src="africa photos/kenya2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Kenyan cuisine reflects the diversity of its culture, offering everything from inland dishes to Swahili coastal flavors. Fresh ingredients and simple, hearty meals are central to its food.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Nyama Choma:</strong> Grilled meat served with ugali and vegetables.</p> 
+                    <p><strong>Ugali:</strong> Maize flour dough, a staple dish.</p> 
+                    <p><strong>Sukuma Wiki:</strong> Collard greens cooked with onions and tomatoes.</p> 
+                    <p><strong>Mandazi:</strong> Sweet fried bread, similar to donuts.</p>
+                    
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">9. Egypt</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/egypt1.png">
+                <img src="africa photos/egypt2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>Egyptian cuisine is rooted in ancient traditions and is known for its hearty, comforting dishes. Meals are often complemented with fresh bread and vibrant dips.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p>
+                    <p><strong>Koshari:</strong> A mix of rice, lentils, pasta, and chickpeas topped with spicy tomato sauce.</p> 
+                    <p><strong>Ful Medames:</strong> Stewed fava beans served with bread.</p> 
+                    <p><strong>Molokhia:</strong> A green soup made from jute leaves.</p> 
+                    <p><strong>Basbousa:</strong> A semolina dessert soaked in syrup.</p> 
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+        <p class="text">10. Mauritius</p>
+        <div class="main">
+            <div class="main1">
+                <img src="africa photos/Mauritius1.png">
+                <img src="africa photos/Mauritius2.png">
+            </div>
+            <div class="text-section">
+                <p><strong>Why Visit:<br></strong>A unique blend of African, French, Indian, and Chinese influences makes Mauritius a top destination for foodies. Seafood lovers will particularly enjoy the island's offerings.</p>
+                    <br>
+                    <p><strong>Famous Dishes:</strong></p><p><strong>Dholl Puri:</strong> Flatbread filled with spiced yellow split peas.</p> 
+                    <p><strong>Seafood Curry:</strong> Fresh seafood cooked in a spicy coconut curry.</p> 
+                    <p><strong>Gateaux Piments:</strong> Chili fritters.</p> 
+                    <p><strong>Alouda:</strong> A sweet milk-based drink with basil seeds.</p>
+            </div>
+        </div>
+
+        <div class="main2">
+            <a href="famous-cities" class="button">
+                <p>Famous cities</p>
+            </a>
+            <a href="top-rated-restaurants" class="button">
+                <p>Top Rated Restaurants</p>
+            </a>
+        </div>
+
+
+        <div class="b">
+            <div class="back">
+            <a href="choose.html">
+                <p>BACK</p>
+            </a>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
